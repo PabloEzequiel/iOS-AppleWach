@@ -44,26 +44,40 @@ En el post anterior repasamos como actualizar el Apple Watch a OS 2</p>
 <p><img src="http://3.bp.blogspot.com/-RWyVT0-Wjfc/VhMT4oJbB4I/AAAAAAAAA-A/tvKnfQO5Bi8/s400/Captura%2Bde%2Bpantalla%2B2015-10-05%2Ba%2Blas%2B9.20.11%2Bp.m..png" alt=""></p>
 
 <p>Tenemos nuestro MainStory Board, le vamos a agregar un Label para que no quede vacío. 
-Esta es para la aplicación para el iPhone, pero como veremos mas adelante, no es necesario para la aplicación en el Apple Watch</p>
+Esta es para la aplicación para el iPhone, pero como veremos mas adelante, no es necesario para la aplicación en el <strong>Apple Watch</strong></p>
+
+<p><img src="http://2.bp.blogspot.com/-iHVQhUVuLXI/VhMVFyGqPvI/AAAAAAAAA-M/wJoKJ1IrXJI/s640/xcode%2By%2Bapple%2Bwatch%2B01.png" alt=""></p>
 
 <p>Si en este momento presionamos Play, nos encontramos con nuestra aplicación del estilo "Hola Mundo" para iPhone, en el iOS simulator se ve</p>
+
+<p><img src="http://4.bp.blogspot.com/-AWQxm6IVRpY/VhMZ5OPTgaI/AAAAAAAAA-g/8kbjOlADDfU/s1600/Simulator%2BScreen%2BShot%2B5%2Boct%2B2015%2B9.44.40%2Bp.m..png" alt=""></p>
 
 <h1>
 <a id="paso-02-creamos-el-proyecto-para-el-apple-watch" class="anchor" href="#paso-02-creamos-el-proyecto-para-el-apple-watch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Paso 02: Creamos el Proyecto para el Apple Watch</h1>
 
 <p>Nos mantenemos dentro del proyecto de iPhone que acabamos de crear y volvemos a elegir File &gt; New &gt; Project</p>
 
+<p><img src="http://4.bp.blogspot.com/-1PQmqvqZZfI/VhMaOseTR9I/AAAAAAAAA-o/zuXvduBJGCY/s640/xcode%2By%2Bapple%2Bwatch%2B03.png" alt=""></p>
+
 <p>Para elegir iOS App with Watchkit App dentro de watchOS &gt; Application</p>
+
+<p><img src="http://2.bp.blogspot.com/-ub04PUEGpvI/VhMaYfWoO4I/AAAAAAAAA-w/fWU7A8yFNL4/s640/xcode%2Bapple%2Bwatch%2B04.png" alt=""></p>
 
 <p>Es importante que al proyecto del Apple Watch le asignemos un nombre diferente al del iPhone</p>
 
+<p><img src="http://4.bp.blogspot.com/-XyqUZyeZ-Ik/VhMafEEwNOI/AAAAAAAAA-4/9aCvCY0UwrM/s1600/XCODE%2BY%2Bapple%2B05.png" alt=""></p>
+
 <p>Elegimos una carpeta destino</p>
+
+<p><img src="http://4.bp.blogspot.com/-kYZhenbq66Q/VhMaoLHwhZI/AAAAAAAAA_A/W1Q5F8KPn-A/s640/xcode%2By%2Bapple%2Bwatch%2B06.png" alt=""></p>
 
 <p>Vemos que este nuevo proyecto nos da un nuevo storyboard con las dimensiones del Apple Watch y observamos tres cosas:</p>
 
 <p>La ubicación del storyboard para el Apple Watch
 La posibilidad de agregar Label y Separators
 Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
+
+<p><img src="http://1.bp.blogspot.com/-HtdZZsEDONM/VhMpNeFYGgI/AAAAAAAAA_c/dfK64KtCBNo/s1600/app%2Bwatch%2B07.png" alt=""></p>
 
 <p>Agregamos algunos Labels. En nuestro caso agregamos varios para mostrar la info de la cuenta de twitter y las pagina web que utilizamos para documentar y compartir las pruebas que realizamos.</p>
 
@@ -75,6 +89,8 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 <p>Luego creamos los outlets. Es la forma de crear una variable para el label dentro del código... Es un poco extraño la primera vez, pero luego uno se acostumbra y finalmente lo hace rutinariamente y esta ok!</p>
 
 <p>Con el CTRL presionado, arrastramos el label hacia el código fuente y magicamente nos creará una variable...</p>
+
+<p><img src="http://2.bp.blogspot.com/-FXov8bn2AeI/VhMsdFowYZI/AAAAAAAAA_o/wE3crYBXFo0/s640/Captura%2Bde%2Bpantalla%2B2015-10-05%2Ba%2Blas%2B10.58.30%2Bp.m..png" alt=""></p>
 
 <p>El código de nuestra clase quedó como:</p>
 
@@ -120,6 +136,8 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 
 <p>Simplemente la damos ejecutar y vemos lo siguiente:</p>
 
+<p><img src="http://2.bp.blogspot.com/-UtCqr4EoDCw/VhMuEjLbe0I/AAAAAAAAA_0/zqhO2kGgJUo/s200/Simulator%2BScreen%2BShot%2B5%2Boct%2B2015%2B11.12.15%2Bp.m..png" alt=""></p>
+
 <h1>
 <a id="paso-05-ejecutamos-la-aplicación-en-el-apple-watch" class="anchor" href="#paso-05-ejecutamos-la-aplicaci%C3%B3n-en-el-apple-watch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Paso 05: Ejecutamos la aplicación en el Apple Watch</h1>
 
@@ -133,9 +151,15 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 
 <p>Con el iPhone conectado al MacBook, elegimos al iPhone como dispositivo físico, en vez del iOS Simulator</p>
 
+<p><img src="http://4.bp.blogspot.com/-rek-qHbOCcI/VhMz4zWoS4I/AAAAAAAABAE/l864uwyiIx0/s640/Captura%2Bde%2Bpantalla%2B2015-10-05%2Ba%2Blas%2B11.35.33%2Bp.m..png" alt=""></p>
+
 <p>Veamos los pasos para autorizar la aplicación para que se ejecute en el iPhone</p>
 
+<p><img src="http://2.bp.blogspot.com/-eStGoRZC0ks/VhM0XPy_lPI/AAAAAAAABAU/9QLmBXe-1kA/s320/thumb_IMG_0830_1024.jpg" alt=""></p>
+
 <p>La siguiente pantalla es la captura del iPhone con la aplicación corriendo:</p>
+
+<p><img src="http://4.bp.blogspot.com/-2MXgLdUqP8k/VhM0X--FYzI/AAAAAAAABAw/GZIFXid2llA/s320/thumb_IMG_0833_1024.jpg" alt=""></p>
 
 <p>(Nota: Para capturar la pantalla de un iPhone 6 o Plus tenemos que mantener pulsado el botón de reposo/encendido y luego hacer clic en el botón home)</p>
 
@@ -144,14 +168,24 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 <p>Nos muestra el error:
 apple watch error en la verificación  de la aplicación</p>
 
+<p><img src="http://1.bp.blogspot.com/-LH_kUbmQi-Q/VhM9CLAZZcI/AAAAAAAABBo/xI990yhN-tw/s320/thumb_IMG_0835_1024.jpg" alt=""></p>
+
 <p>Para solucionar este error, tenemos que autorizar a nuestra aplicación para que se instale en el Apple Watch:</p>
 
 <p>Observemos que dentro del ícono Watch aparece nuestra aplicación, la cual debemos autorizar a que se muestre en el Apple Watch:</p>
 
+<p><img src="http://3.bp.blogspot.com/-Dxw3PoqjVZE/VhM200vzNYI/AAAAAAAABBQ/HtaMnhr0znQ/s320/thumb_IMG_0836_1024.jpg" alt="">
+<img src="http://4.bp.blogspot.com/-FxdQo7ILtLg/VhM21Gq63yI/AAAAAAAABBU/HZnuXGenRAY/s320/thumb_IMG_0837_1024.jpg" alt=""></p>
+
 <h2>
 <a id="en-ese-momento-en-el-apple-watch-aparece" class="anchor" href="#en-ese-momento-en-el-apple-watch-aparece" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>En ese momento, en el Apple Watch aparece:</h2>
 
+<p><img src="http://3.bp.blogspot.com/-Wl5tlFfruTQ/VhM-E5P1ECI/AAAAAAAABB0/dwSEUlz47iE/s320/thumb_IMG_0839_1024.jpg" alt="">
+<img src="http://4.bp.blogspot.com/-aZOxHEn-WKM/VhM-EwfhkjI/AAAAAAAABBw/LE6RzkDGaoM/s320/thumb_IMG_0840_1024.jpg" alt="">   </p>
+
 <p>Y le decimos que si vamos a confiar en ese desarrollador para que finalice el proceso.</p>
+
+<p><img src="http://2.bp.blogspot.com/-jKvIumfGvnw/VhNIZOXOHfI/AAAAAAAABCU/v2rjTPp50ss/s640/IMG_0846.jpg" alt=""></p>
 
 <h2>
 <a id="código-en-github" class="anchor" href="#c%C3%B3digo-en-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Código en GitHub</h2>
