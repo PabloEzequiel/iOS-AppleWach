@@ -76,37 +76,37 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 
 <p>class InterfaceController: WKInterfaceController {</p>
 
-<pre><code> @IBOutlet var TitleLabel: WKInterfaceLabel!
+<pre><code>   @IBOutlet var TitleLabel: WKInterfaceLabel!
 
-@IBOutlet var label_01: WKInterfaceLabel!
-@IBOutlet var label_02: WKInterfaceLabel!
-@IBOutlet var label_03: WKInterfaceLabel!
-@IBOutlet var label_04: WKInterfaceLabel!
+  @IBOutlet var label_01: WKInterfaceLabel!
+  @IBOutlet var label_02: WKInterfaceLabel!
+  @IBOutlet var label_03: WKInterfaceLabel!
+  @IBOutlet var label_04: WKInterfaceLabel!
 
 
-override func awakeWithContext(context: AnyObject?) {
-    super.awakeWithContext(context)
+  override func awakeWithContext(context: AnyObject?) {
+      super.awakeWithContext(context)
 
-    // Configure interface objects here.
+      // Configure interface objects here.
 
-    TitleLabel.setText("Mi Primera App:");
+      TitleLabel.setText("Mi Primera App:");
 
-    label_01.setText("@no_cuestanada");
-    label_02.setText("ProbarNoCuestaNada.com");
-    label_03.setText("iosen.blogspot.com");
+      label_01.setText("@no_cuestanada");
+      label_02.setText("ProbarNoCuestaNada.com");
+      label_03.setText("iosen.blogspot.com");
 
-    label_04.setText("EN APPLE WATCH");
-}
+      label_04.setText("EN APPLE WATCH");
+  }
 
-override func willActivate() {
-    // This method is called when watch view controller is about to be visible to user
-    super.willActivate()
-}
+  override func willActivate() {
+      // This method is called when watch view controller is about to be visible to user
+      super.willActivate()
+  }
 
-override func didDeactivate() {
-    // This method is called when watch view controller is no longer visible
-    super.didDeactivate()
-}
+  override func didDeactivate() {
+      // This method is called when watch view controller is no longer visible
+      super.didDeactivate()
+  }
 </code></pre>
 
 <p>}</p>
