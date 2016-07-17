@@ -74,42 +74,42 @@ Un nuevo Device de 38mm y 42mm que son las pantallas del Apple Watch</p>
 
 <p>El código de nuestra clase quedó como:</p>
 
-<p>class InterfaceController: WKInterfaceController {</p>
+<pre><code>class InterfaceController: WKInterfaceController {
 
-<pre><code>   @IBOutlet var TitleLabel: WKInterfaceLabel!
+     @IBOutlet var TitleLabel: WKInterfaceLabel!
 
-  @IBOutlet var label_01: WKInterfaceLabel!
-  @IBOutlet var label_02: WKInterfaceLabel!
-  @IBOutlet var label_03: WKInterfaceLabel!
-  @IBOutlet var label_04: WKInterfaceLabel!
+    @IBOutlet var label_01: WKInterfaceLabel!
+    @IBOutlet var label_02: WKInterfaceLabel!
+    @IBOutlet var label_03: WKInterfaceLabel!
+    @IBOutlet var label_04: WKInterfaceLabel!
 
 
-  override func awakeWithContext(context: AnyObject?) {
-      super.awakeWithContext(context)
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
 
-      // Configure interface objects here.
+        // Configure interface objects here.
 
-      TitleLabel.setText("Mi Primera App:");
+        TitleLabel.setText("Mi Primera App:");
 
-      label_01.setText("@no_cuestanada");
-      label_02.setText("ProbarNoCuestaNada.com");
-      label_03.setText("iosen.blogspot.com");
+        label_01.setText("@no_cuestanada");
+        label_02.setText("ProbarNoCuestaNada.com");
+        label_03.setText("iosen.blogspot.com");
 
-      label_04.setText("EN APPLE WATCH");
-  }
+        label_04.setText("EN APPLE WATCH");
+    }
 
-  override func willActivate() {
-      // This method is called when watch view controller is about to be visible to user
-      super.willActivate()
-  }
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
+    }
 
-  override func didDeactivate() {
-      // This method is called when watch view controller is no longer visible
-      super.didDeactivate()
-  }
+    override func didDeactivate() {
+        // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
+    }
+
+}
 </code></pre>
-
-<p>}</p>
 
 <h1>
 <a id="paso-04-ejecutamos-en-el-ios-simulator" class="anchor" href="#paso-04-ejecutamos-en-el-ios-simulator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Paso 04: Ejecutamos en el iOS Simulator</h1>
